@@ -1,0 +1,6 @@
+@FinnishLine_Webhook_HostAddress = http://localhost:5091
+
+GET {{FinnishLine_Webhook_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
