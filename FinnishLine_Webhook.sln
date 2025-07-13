@@ -5,6 +5,10 @@ VisualStudioVersion = 17.14.36301.6 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinnishLine_Webhook", "FinnishLine_Webhook\FinnishLine_Webhook.csproj", "{2D4F4C2B-8218-4A38-AC18-C14E1E3D413B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAL", "BAL\BAL.csproj", "{170FF2E3-E8F5-4F2C-8887-C40D6F69619A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{8C178C08-3176-43EB-9666-207C77F2A779}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2D4F4C2B-8218-4A38-AC18-C14E1E3D413B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D4F4C2B-8218-4A38-AC18-C14E1E3D413B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D4F4C2B-8218-4A38-AC18-C14E1E3D413B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{170FF2E3-E8F5-4F2C-8887-C40D6F69619A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170FF2E3-E8F5-4F2C-8887-C40D6F69619A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170FF2E3-E8F5-4F2C-8887-C40D6F69619A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170FF2E3-E8F5-4F2C-8887-C40D6F69619A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C178C08-3176-43EB-9666-207C77F2A779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C178C08-3176-43EB-9666-207C77F2A779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C178C08-3176-43EB-9666-207C77F2A779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C178C08-3176-43EB-9666-207C77F2A779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
