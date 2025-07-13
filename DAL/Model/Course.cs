@@ -14,7 +14,6 @@ namespace DAL.Model
         public string? CourseName { get; set; }
         public string? Fees { get; set; }
         public int? Duration { get; set; }
-        public ICollection<University>? Universities { get; set; }
 
     }
 }

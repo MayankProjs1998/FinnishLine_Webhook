@@ -1,4 +1,6 @@
+using BAL.Service;
 using DAL.Data;
+using DAL.ServiceDal;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +12,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<ICourseService, CourseService>();
+builder.Services.AddScoped<ICourseServiceDal, CourseServiceDal>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
